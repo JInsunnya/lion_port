@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Freesentation-9Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2')
+    format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.head {
+  font-size: large;
+  font-family: 'Freesentation-9Black';
+}
+
+.port {
+  text-decoration: overline;
+  text-decoration-style: double;
+  text-decoration-thickness: auto;
+}
+.click {
+  text-align: right;
+  word-spacing: 1em;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: auto;
+}
