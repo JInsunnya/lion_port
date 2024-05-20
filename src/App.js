@@ -15,6 +15,16 @@ function App() {
           <HeadComponent />
         </article>
       </div>
+      <nav>
+        <ul>
+          <li>
+            <a href={`/contacts/1`}>글쓰기</a>
+          </li>
+          <li>
+            <a href={`/contacts/2`}>글목록</a>
+          </li>
+        </ul>
+      </nav>
       <div className="intro">
         <h1>안녕하세요</h1>
         <h1>Frontend 개발자 김진선입니다</h1>
