@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-// import './Click.css';
 import HeadComponent from './HeadComponent';
-// import ClickComponent from './ClickComponent';
 import kim from './kim.jpg';
 import career from './career.png';
 import soon from './soon.png';
+import Contact from './routes/contact';
+// import { Link } from 'react-router-dom';
+import List from './routes/list';
 
 function App() {
   return (
@@ -18,10 +19,10 @@ function App() {
       <nav>
         <ul>
           <li>
-            <a href={`/contacts/1`}>글쓰기</a>
+            <a href={`/contacts`}>글쓰기</a>
           </li>
           <li>
-            <a href={`/contacts/2`}>글목록</a>
+            <a href={`/lists`}>글목록</a>
           </li>
         </ul>
       </nav>

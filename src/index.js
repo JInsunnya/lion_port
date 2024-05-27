@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Root from './App';
 import ErrorPage from './error-page';
-import ErrorPage2 from './error-page2';
+// import Root from './routes/root';
+import Contact from './routes/contact';
+import List from './routes/list';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +23,20 @@ const router = createBrowserRouter([
     path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
-    errorElement: <ErrorPage2 />,
+    // children: [
+    //   {
+    //     path: 'contacts',
+    //     element: <Contact />,
+    //   },
+    // ],
+  },
+  {
+    path: 'contacts',
+    element: <Contact />,
+  },
+  {
+    path: 'lists',
+    element: <List />,
   },
 ]);
 

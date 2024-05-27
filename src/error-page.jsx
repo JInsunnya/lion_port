@@ -8,8 +8,7 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <h1>글쓰기 페이지입니다.</h1>
-      <p>글의 내용을 입력해 보시겠어요?</p>
+      <h1>errorpage 입니다.</h1>
       {/* <p>
         <i>{error.statusText || error.message}</i>
       </p> */}
