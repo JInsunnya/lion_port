@@ -119,3 +119,36 @@
 .personal4 {
   word-spacing: 5em;
 }
+
+nav {
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  color: #356bff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav-menu a:hover {
+  background-color: #c7f8ff;
+}

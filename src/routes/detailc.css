@@ -1,0 +1,30 @@
+nav {
+  background-color: #ffffff;
+  padding: 10px -5px;
+}
+
+.nav-detail {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.nav-detail li {
+  margin: 0 8px;
+}
+
+.nav-detail a {
+  color: #0f4fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.nav-detail a:hover {
+  background-color: #c7f8ff;
+}

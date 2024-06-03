@@ -1,0 +1,66 @@
+.space {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.username {
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-bottom: 12px;
+}
+
+.text-box1 {
+  width: 280px;
+  height: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #b1b1b1;
+}
+
+.registration {
+  margin-top: 50px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.registration:hover {
+  background-color: blue;
+}
+
+.respace {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.red {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 230px;
+  color: red;
+}
+
+.text-box3 {
+  width: 280px;
+  height: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #b1b1b1;
+  margin-top: 50px;
+}

@@ -8,6 +8,11 @@ import ErrorPage from './error-page';
 // import Root from './routes/root';
 import Contact from './routes/contact';
 import List from './routes/list';
+import Login from './routes/login';
+import { CookiesProvider } from 'react-cookie';
+import Registration from './routes/registration';
+import Mypage from './routes/mypage';
+import Detail from './routes/detail';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,12 +28,6 @@ const router = createBrowserRouter([
     path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
-    // children: [
-    //   {
-    //     path: 'contacts',
-    //     element: <Contact />,
-    //   },
-    // ],
   },
   {
     path: 'contacts',
@@ -38,10 +37,28 @@ const router = createBrowserRouter([
     path: 'lists',
     element: <List />,
   },
+  {
+    path: 'logins',
+    element: <Login />,
+  },
+  {
+    path: 'registrations',
+    element: <Registration />,
+  },
+  {
+    path: 'mypages',
+    element: <Mypage />,
+  },
+  {
+    path: 'details',
+    element: <Detail />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <CookiesProvider>
+      <RouterProvider router={router} />
+    </CookiesProvider>
   </React.StrictMode>
 );

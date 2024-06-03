@@ -7,6 +7,9 @@ import soon from './soon.png';
 import Contact from './routes/contact';
 // import { Link } from 'react-router-dom';
 import List from './routes/list';
+import Login from './routes/login';
+import Registration from './routes/registration';
+import Mypage from './routes/mypage';
 
 function App() {
   return (
@@ -17,12 +20,21 @@ function App() {
         </article>
       </div>
       <nav>
-        <ul>
+        <ul className="nav-menu">
           <li>
-            <a href={`/contacts`}>글쓰기</a>
+            <a href={`/contacts`}>게시글 작성</a>
           </li>
           <li>
-            <a href={`/lists`}>글목록</a>
+            <a href={`/lists`}>게시글 전체조회</a>
+          </li>
+          <li>
+            <a href={`/logins`}>Login</a>
+          </li>
+          <li>
+            <a href={`/registrations`}>회원가입</a>
+          </li>
+          <li>
+            <a href={`/mypages`}>MyPage</a>
           </li>
         </ul>
       </nav>
