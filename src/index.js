@@ -13,6 +13,7 @@ import { CookiesProvider } from 'react-cookie';
 import Registration from './routes/registration';
 import Mypage from './routes/mypage';
 import Detail from './routes/detail';
+import Modify from './routes/modify';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: 'details',
     element: <Detail />,
+  },
+  {
+    path: 'modifys',
+    element: <Modify />,
   },
 ]);
 

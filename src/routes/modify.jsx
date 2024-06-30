@@ -38,8 +38,8 @@ function App() {
 
   const contact = async () => {
     try {
-      const response = await apiCall.post(
-        `blog/`,
+      const response = await apiCall.put(
+        `blog/${id}/`,
         {
           title,
           body,
@@ -110,7 +110,7 @@ function App() {
   return (
     <div className="onlyfont">
       <h1 className="wirte">KIM Portfolio</h1>
-      <h2 className="text">글 작성</h2>
+      <h2 className="text">글 수정</h2>
       <input
         type="text"
         value={title}
@@ -127,7 +127,7 @@ function App() {
         className="text-box2"
       />
       <button className="finish" onClick={contact}>
-        게시글 작성 완료
+        게시글 수정 완료
       </button>
       {/* <button onClick={updatePost}>게시글 수정</button>
       <button onClick={deletePost}>게시글 삭제</button> */}

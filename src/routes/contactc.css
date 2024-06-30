@@ -13,6 +13,14 @@
   font-size: 16px;
   margin-bottom: 30px;
   margin-top: 30px;
+  font-family: 'S-CoreDream-3Light';
+  border-width: 3px;
+  border-color: rgb(164, 200, 255);
+  border-style: solid;
+  padding: 12px;
+  line-height: 1;
+  margin-bottom: 30px;
+  border-radius: 40px 80px / 80px 40px;
 }
 
 .text-box2 {
@@ -21,8 +29,63 @@
   padding: 10px;
   font-size: 16px;
   margin-bottom: 30px;
+  font-family: 'S-CoreDream-3Light';
+  border-width: 3px;
+  border-color: rgb(164, 200, 255);
+  border-style: solid;
+  padding: 12px;
+  line-height: 1;
+  margin-bottom: 30px;
+  border-radius: 40px 80px / 80px 40px;
 }
 
 .onlyfont {
   font-family: 'S-CoreDream-3Light';
+}
+
+.wirte {
+  height: 60px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.finish {
+  margin-top: 50px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.finish:hover {
+  background-color: blue;
+}
+
+.nav-finish {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 50px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
